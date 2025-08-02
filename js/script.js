@@ -280,7 +280,7 @@ async function tvDetails() {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 async function fetchApiData(endpoint) {
-  const key = '2222c7541cbbb37ecfbd5587d4554f78';
+  const key = '//use your api key';
   const url = 'https://api.themoviedb.org/3';
   showSpinner();
   const movies = await fetch(
